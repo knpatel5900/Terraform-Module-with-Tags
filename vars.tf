@@ -1,3 +1,6 @@
+variable "env"{  
+  default = "tf"
+}
 #Vpc
 variable "vpcCIDRblock"{  
   default = "192.168.0.0/16"
